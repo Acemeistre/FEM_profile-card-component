@@ -43,3 +43,11 @@ body {
     border-radius: 50%;
     border: 2px white solid;
 }
+
+h1 {
+    font-size: var(--spacing-300)
+}
+
+.stat-label, .location {
+    color: var(--color-grey)
+}
