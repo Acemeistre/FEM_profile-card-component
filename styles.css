@@ -74,3 +74,7 @@ h1, .stat-number {
     justify-self: center;
     color: var(--color-grey);
 }
+
+.stat-label {
+    letter-spacing: 2px;
+}
