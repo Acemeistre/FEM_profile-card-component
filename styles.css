@@ -27,7 +27,7 @@ body {
 }
 
 .card-container {
-    min-width: 350px;
+    min-width: 326px;
     min-height: 374px;
     background-color: white;
     border-radius: var(--spacing-200);
@@ -44,10 +44,24 @@ body {
     border: 2px white solid;
 }
 
-h1 {
-    font-size: var(--spacing-300)
+.profile, .stat {
+    line-height: var(--spacing-200)
+}
+
+.statistics {
+    display: flex;
+    justify-content: space-between;
+    padding: var(--spacing-300);
+}
+
+h1, .stat-number {
+    display: flex;
+    justify-self: center;
+    font-size: var(--spacing-300);
 }
 
 .stat-label, .location {
-    color: var(--color-grey)
+    display: flex;
+    justify-self: center;
+    color: var(--color-grey);
 }
