@@ -23,7 +23,7 @@ body {
     display: grid;
     place-items: center;
     min-height: 100vh;
-    background-color: var(--color-dark-cyan)
+    background-color: var(--color-dark-cyan);
 }
 
 .card-container {
@@ -46,6 +46,12 @@ body {
     border: 2px white solid;
 }
 
+.age {
+    padding-left: var(--spacing-100);
+    color: var(--color-grey);
+    font-weight: 400;
+}
+
 .profile, .stat {
     line-height: var(--spacing-200)
 }
@@ -54,6 +60,7 @@ body {
     display: flex;
     justify-content: space-between;
     padding: var(--spacing-300);
+    border-top: 1px var(--color-light-grey) solid;
 }
 
 h1, .stat-number {
