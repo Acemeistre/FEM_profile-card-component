@@ -18,3 +18,28 @@
     --spacing-700: 3.5rem;
 }
 
+body {
+    font-family: "Kumbh Sans", sans-serif;
+    display: grid;
+    place-items: center;
+    min-height: 100vh;
+    background-color: var(--color-cyan)
+}
+
+.card-container {
+    min-width: 350px;
+    min-height: 374px;
+    background-color: white;
+    border-radius: var(--spacing-200);
+}
+
+.card-banner {
+    background: 
+}
+
+.profile img {
+    display: flex;
+    justify-self: center;
+    border-radius: 50%;
+    border: 2px white solid;
+}
