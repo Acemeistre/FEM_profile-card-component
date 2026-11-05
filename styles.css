@@ -23,7 +23,7 @@ body {
     display: grid;
     place-items: center;
     min-height: 100vh;
-    background-color: var(--color-cyan)
+    background-color: var(--color-dark-cyan)
 }
 
 .card-container {
@@ -34,7 +34,9 @@ body {
 }
 
 .card-banner {
-    background: 
+    background: url('images/bg-pattern-card.svg');
+    min-height: 144px;
+    border-radius: 1rem 1rem 0 0;
 }
 
 .profile img {
