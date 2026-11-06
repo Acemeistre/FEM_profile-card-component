@@ -1,6 +1,6 @@
 # Frontend Mentor - profile card component solution
 
-This is a solution to the [profile card component challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/grid landing page). Frontend Mentor challenges help you improve your coding skills by building realistic projects. 
+This is a solution to the [profile card component challenge on Frontend Mentor](https://www.frontendmentor.io/profile-card-component-cfArpWshJ). Frontend Mentor challenges help you improve your coding skills by building realistic projects. 
 
 ## Table of contents
 
@@ -27,8 +27,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [https://github.com/Acemeistre/FEM_profile-card-component/]
-- Live Site URL: [https://acemeistre.github.io/FEM_profile-card-component/]
+- Solution URL: [GitHub repo](https://github.com/Acemeistre/FEM_profile-card-component/)
+- Live Site URL: [Live site](https://acemeistre.github.io/FEM_profile-card-component/)
 
 ## My process
 
