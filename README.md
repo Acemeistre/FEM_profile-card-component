@@ -1,6 +1,6 @@
-# Frontend Mentor - grid landing page solution
+# Frontend Mentor - profile card component solution
 
-This is a solution to the [grid landing page challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/grid landing page). Frontend Mentor challenges help you improve your coding skills by building realistic projects. 
+This is a solution to the [profile card component challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/grid landing page). Frontend Mentor challenges help you improve your coding skills by building realistic projects. 
 
 ## Table of contents
 
