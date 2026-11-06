@@ -24,6 +24,14 @@ body {
     place-items: center;
     min-height: 100vh;
     background-color: var(--color-dark-cyan);
+    background-image:
+    url("./images/bg-pattern-top.svg"),
+    url("./images/bg-pattern-bottom.svg");
+    background-repeat: no-repeat, no-repeat;
+    background-position:
+    calc(var(--circle-size) / -2) calc(var(--circle-size) / -2),
+    right calc(var(--circle-size) / -2) bottom calc(var(--circle-size) / -2);
+    background-size: var(--circle-size) var(--circle-size);
 }
 
 .card-container {
@@ -39,8 +47,11 @@ body {
     border-radius: 1rem 1rem 0 0;
 }
 
+h1 {
+    font-size: var(--spacing-300);
+}
 
-.name, .location {
+h1, .location {
     position: relative;
     top: -3.5rem;
 }
@@ -79,7 +90,10 @@ body {
 h1, .stat-number {
     display: flex;
     justify-self: center;
-    font-size: var(--spacing-300);
+}
+
+.stat-number {
+    font-size: 1.3rem;
 }
 
 .stat-label, .location {
@@ -90,7 +104,7 @@ h1, .stat-number {
 
 .stat-label {
     letter-spacing: 2px;
-    font-size: .8rem;
+    font-size: .75rem;
     position: relative;
     top: -.5rem;
 }
