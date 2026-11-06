@@ -28,22 +28,34 @@ body {
 
 .card-container {
     min-width: 326px;
-    min-height: 374px;
+    max-height: 374px;
     background-color: white;
     border-radius: var(--spacing-200);
 }
 
 .card-banner {
     background: url('images/bg-pattern-card.svg');
-    min-height: 144px;
+    min-height: 124px;
     border-radius: 1rem 1rem 0 0;
+}
+
+
+.name, .location {
+    position: relative;
+    top: -3.5rem;
+}
+
+.profile {
+    max-height: 140px
 }
 
 .profile img {
     display: flex;
+    position: relative;
+    top: -3.25rem;
     justify-self: center;
     border-radius: 50%;
-    border: 2px white solid;
+    border: 6px white solid;
 }
 
 .age {
@@ -58,8 +70,9 @@ body {
 
 .statistics {
     display: flex;
-    justify-content: space-between;
-    padding: var(--spacing-300);
+    max-height: 100px;
+    justify-content: space-around;
+    padding: 0rem 1rem;
     border-top: 1px var(--color-light-grey) solid;
 }
 
@@ -77,4 +90,7 @@ h1, .stat-number {
 
 .stat-label {
     letter-spacing: 2px;
+    font-size: .8rem;
+    position: relative;
+    top: -.5rem;
 }
